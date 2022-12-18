@@ -1,0 +1,1 @@
+This is a project on HTML and CSS web design. It focuses on Flexbox utilisation.
