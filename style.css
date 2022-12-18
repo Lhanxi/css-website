@@ -110,7 +110,7 @@ img{
 }
 
 @media(max-width: 1000px){
- .pics, .content{
+ .four, .pics, .content{
          flex-direction: column;
      }
  }
@@ -137,6 +137,40 @@ img{
     font-size: 18px;
     padding-right: 150px;
 }
+
+.four{
+   
+    background-color:#3882F6;
+    margin: 100px auto;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    max-width: 1000px;
+    
+}
+
+.button2{
+    margin-left: auto;
+    border: 2px solid #E5E7EB;
+    color:#E5E7EB;
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.call{
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.click{
+    color:#E5E7EB;
+    font-size: 16px;
+}
+
 .footer{
     background-color:#1F2937;
     text-align: center;
