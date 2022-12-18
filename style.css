@@ -1,0 +1,146 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+
+}
+.first{
+    background-color:#1F2937;
+    padding:0;
+    margin:0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 200px;
+    margin-bottom: 100px;
+    flex: 1;
+}
+
+
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 20px;
+    margin:30px;
+}
+.logo{
+    font-size:24px;
+    color: #F9FAF8;
+    margin:24px;
+}
+
+.words{
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    padding-right: 50px;
+}
+.description{
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 10px;
+}
+.subtext{
+    font-size:18px;
+    color: #E5E7EB;
+    margin: 10px;
+}
+button{
+    border:none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #E5E7EB;
+    background-color:#3882F6;
+    font-size:18px;
+    font-weight:bold;
+    align-self:flex-start;
+    margin: 10px;
+}
+.placeholder{
+    color: #E5E7EB;
+    font-size:18px;
+    background-color:grey;
+    padding: 100px 200px;
+    text-align: center;
+    flex-grow:0;
+}
+.content{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex: 1;
+}
+.second{
+    margin: 50px 100px;
+    text-align: center;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 150px;
+}
+.random{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.text{
+    max-width: 100px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+@media(max-width: 1000px){
+ .pics, .content{
+         flex-direction: column;
+     }
+ }
+ 
+.third{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 100px;
+}
+.third .quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 100;
+    color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+.person{
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 150px;
+}
+.footer{
+    background-color:#1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 50px;
+}
